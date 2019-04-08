@@ -8,6 +8,7 @@ public class SpringBootWithSkywalkingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWithSkywalkingApplication.class, args);
+		System.out.println("Hello,world");
 	}
 
 }
