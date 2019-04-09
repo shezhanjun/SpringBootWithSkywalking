@@ -135,4 +135,4 @@ Desktop.ini
 ######################
 .eslintcache
 
-! agent/*
+!agent/logs/
