@@ -135,4 +135,4 @@ Desktop.ini
 ######################
 .eslintcache
 
-!agent/logs/skywalking-api.log
+!agent/
