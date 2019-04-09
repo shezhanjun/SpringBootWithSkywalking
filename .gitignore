@@ -80,14 +80,6 @@ out/
 /build/
 
 ######################
-# Package Files
-######################
-*.jar
-*.war
-*.ear
-*.db
-
-######################
 # Windows
 ######################
 # Windows image file caches
@@ -143,4 +135,3 @@ Desktop.ini
 ######################
 .eslintcache
 
-agent/
