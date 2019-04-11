@@ -2,10 +2,13 @@ FROM openjdk:8-jre-alpine
 
 ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \
     SPRINGBOOT_SLEEP=0 \
-    JAVA_OPTS=""
+    JAVA_OPTS="" \
+    SW_AGENT_NAMESPACE=test \
+    SW_AGENT_NAME=springbootwithskywalking \
+    SW_AGENT_COLLECTOR_BACKEND_SERVICES=127.0.0.1:11800 \
+    SW_AGENT_SAMPLE=-1
     
-  
-
+    
 # Add a tanjie user to run our application so that it doesn't need to run as root
 RUN adduser -D -s /bin/sh tanjie
 WORKDIR /home/tanjie
